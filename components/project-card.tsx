@@ -5,6 +5,26 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+// Define a mapping of tags to colors
+const tagColors = {
+  "Next.js": "bg-black text-white",
+  "TypeScript": "bg-blue-600 text-white",
+  "Stripe": "bg-purple-600 text-white",
+  "PostgreSQL": "bg-blue-800 text-white",
+  "React": "bg-blue-500 text-white",
+  "Node.js": "bg-green-600 text-white",
+  "GraphQL": "bg-pink-500 text-white",
+  "MongoDB": "bg-green-700 text-white",
+  "Django": "bg-green-900 text-white",
+  "AWS": "bg-yellow-500 text-black",
+  "D3.js": "bg-orange-600 text-white",
+  "Express": "bg-gray-700 text-white",
+  "Firebase": "bg-amber-500 text-black",
+  "Python": "bg-yellow-400 text-black",
+  "TensorFlow": "bg-orange-500 text-white",
+  "WebSockets": "bg-teal-500 text-white",
+};
+
 export function ProjectCard({ title, description, image, tags, demoUrl, repoUrl }) {
   return (
     <Card className="overflow-hidden max-w-[350px] min-h-[450px] flex flex-col">
@@ -27,7 +47,7 @@ export function ProjectCard({ title, description, image, tags, demoUrl, repoUrl 
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag) => (
-            <Badge key={tag} variant="secondary" className="text-xs">
+            <Badge key={tag} className={`text-[10px] px-2 py-1 rounded ${tagColors[tag] || "bg-gray-300 text-black"}`}>
               {tag}
             </Badge>
           ))}

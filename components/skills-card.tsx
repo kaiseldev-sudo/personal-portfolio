@@ -1,9 +1,11 @@
 import { Badge } from "@/components/ui/badge"
+import { SkillsGeometricBackground } from "./skills-geometric-line"
 
 export function Skills() {
   return (
-    <section id="skills" className="w-full bg-background py-12 md:py-24 lg:py-32 border-t">
-      <div className="container mx-auto px-4 md:px-6">
+    <section id="skills" className="w-full bg-background py-12 md:py-24 lg:py-32 border-t relative overflow-hidden">
+      <SkillsGeometricBackground />
+      <div className="container px-4 md:px-6 relative z-10">
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
             <h2 className="font-heading text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">
