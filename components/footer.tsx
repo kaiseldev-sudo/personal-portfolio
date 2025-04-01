@@ -12,11 +12,11 @@ export function Footer() {
           © {new Date().getFullYear()} Jayson Reales. All rights reserved.
         </p>
         <div className="flex gap-4">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/kaiseldev-sudo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <Github className="h-5 w-5" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/jayson-reales/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -38,7 +38,7 @@ export function Footer() {
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://x.com/jaysonreales17" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

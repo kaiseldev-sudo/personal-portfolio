@@ -10,7 +10,7 @@ export function Main() {
     <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 relative overflow-hidden bg-background">
       <GeometricLine />
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+        <div className="grid place-items-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <Badge className="inline-flex text-white">Available for Work</Badge>
@@ -38,7 +38,7 @@ export function Main() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative aspect-square overflow-hidden rounded-full border-8 border-muted md:w-[450px]">
+            <div className="relative aspect-square overflow-hidden rounded-full border-8 border-muted lg:w-[450px] md:w-[450px]">
               <Image
                 src="/photo2.jpg?height=500&width=500"
                 alt="Developer Portrait"

@@ -11,10 +11,7 @@ export function About() {
           <h2 className="font-heading text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">About Me</h2>
           <div className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             <p className="mb-4">
-              With over 8 years of experience in web development, I've worked with a diverse range of clients from
-              startups to Fortune 500 companies. My journey began with a Computer Science degree from UC Berkeley,
-              followed by roles at innovative tech companies where I honed my skills in building scalable,
-              user-focused applications.
+              With 3 years of experience in web development and a Bachelor's degree in Information Technology at Computer Arts and Technological College, Inc., I specialize in turning client ideas into seamless digital solutions.
             </p>
             <p className="mb-4">
               I'm passionate about creating clean, efficient code and intuitive user experiences. My approach
@@ -22,8 +19,7 @@ export function About() {
               expectations.
             </p>
             <p>
-              When I'm not coding, you'll find me hiking in the mountains, experimenting with new cooking recipes,
-              or contributing to open-source projects.
+              When I'm not coding, you'll find me learning Web3, trading cryptocurrency, grinding airdrops, playing guitar, and spending time with my pet dog, Bela.
             </p>
           </div>
           <Button variant="outline" size="lg" asChild>

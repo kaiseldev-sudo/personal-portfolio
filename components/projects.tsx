@@ -17,50 +17,50 @@ export function Projects() {
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
-            title="E-Commerce Platform"
-            description="A full-featured online store with payment processing, inventory management, and analytics dashboard."
-            image="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=600"
-            tags={["Next.js", "TypeScript", "Stripe", "PostgreSQL"]}
+            title="Solana Staking"
+            description="A decentralized application for staking Solana tokens and earning rewards."
+            image="./images/solana.png"
+            tags={["React", "JavaScript", "Solidity"]}
             demoUrl="#"
             repoUrl="#"
           />
           <ProjectCard
-            title="Health & Fitness App"
-            description="Mobile-first web application for tracking workouts, nutrition, and health metrics with personalized recommendations."
-            image="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=600"
-            tags={["React", "Node.js", "GraphQL", "MongoDB"]}
+            title="APCIA Ecommerce with Blockchain Payment"
+            description="An e-commerce platform integrated with blockchain technology for secure and transparent payments."
+            image="./images/apcia.jpg"
+            tags={["PHP", "MySQL", "JavaScript", "Solidity"]}
             demoUrl="#"
             repoUrl="#"
           />
           <ProjectCard
-            title="Real Estate Platform"
-            description="Property listing and management system with advanced search, virtual tours, and agent portals."
-            image="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=600"
-            tags={["React", "Django", "PostgreSQL", "AWS"]}
+            title="Banking App"
+            description="Horizon is a modern banking platform for everyone."
+            image="./images/banking.png"
+            tags={["React", "TypeScript"]}
             demoUrl="#"
             repoUrl="#"
           />
           <ProjectCard
-            title="Financial Dashboard"
-            description="Interactive analytics dashboard for financial data visualization and reporting with real-time updates."
-            image="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=600"
-            tags={["React", "D3.js", "Express", "Firebase"]}
+            title="Enrolment & Grading System"
+            description="A comprehensive enrollment system for educational institutions to manage student registrations and courses."
+            image="./images/enrollment.png"
+            tags={["PHP", "MySQL", "JavaScript",]}
             demoUrl="#"
             repoUrl="#"
           />
           <ProjectCard
-            title="Content Management System"
-            description="Custom CMS built for a media company with workflow automation and content scheduling."
-            image="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=600"
-            tags={["Next.js", "TypeScript", "Node.js", "MongoDB"]}
+            title="Kapuntukan E-Commerce"
+            description="An online ordering system for Kapuntukan Restobar with integrated payment solutions."
+            image="./images/kapuntukan.png"
+            tags={["PHP", "MySQL", "JavaScript",]}
             demoUrl="#"
             repoUrl="#"
           />
           <ProjectCard
-            title="AI-Powered Chat Application"
-            description="Real-time messaging platform with AI-powered features like translation, summarization, and content moderation."
-            image="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=600"
-            tags={["React", "WebSockets", "Python", "TensorFlow"]}
+            title="Cat Town Calculator"
+            description="A fun simulator game for generating and managing a virtual cat town."
+            image="./images/cat-town-calc.png"
+            tags={["React", "JavaScript", "Solidity"]}
             demoUrl="#"
             repoUrl="#"
           />

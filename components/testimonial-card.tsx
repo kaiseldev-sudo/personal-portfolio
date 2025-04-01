@@ -31,7 +31,7 @@ export function TestimonialCard({ quote, author, position, image }) {
             <Image
               src={
                 image ||
-                "https://images.pexels.com/photos/7691739/pexels-photo-7691739.jpeg?auto=compress&cs=tinysrgb&w=600"
+                "https://fakeimg.pl/600x400?text=Photo+not+found"
               }
               alt={author}
               width={40}

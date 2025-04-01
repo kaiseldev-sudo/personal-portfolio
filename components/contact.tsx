@@ -17,8 +17,8 @@ export function Contact() {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <Mail className="h-5 w-5 text-primary" />
-                    <a href="mailto:jayson@example.com" className="hover:underline">
-                      jayson@example.com
+                    <a href="mailto:jaysonreales0@gmail.com" className="hover:underline">
+                      jaysonreales0@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
@@ -29,7 +29,7 @@ export function Contact() {
                 <div className="flex gap-4">
                   <Button variant="outline" size="icon" asChild>
                     <a
-                      href="https://github.com/yourusername"
+                      href="https://github.com/kaiseldev-sudo"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="GitHub"
@@ -39,7 +39,7 @@ export function Contact() {
                   </Button>
                   <Button variant="outline" size="icon" asChild>
                     <a
-                      href="https://linkedin.com/in/yourusername"
+                      href="https://www.linkedin.com/in/jayson-reales/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="LinkedIn"
@@ -64,7 +64,7 @@ export function Contact() {
                   </Button>
                   <Button variant="outline" size="icon" asChild>
                     <a
-                      href="https://twitter.com/yourusername"
+                      href="https://x.com/jaysonreales17"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Twitter"

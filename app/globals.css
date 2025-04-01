@@ -93,3 +93,73 @@ body {
   transition-duration: 300ms;
 }
 
+
+/* Swiper Testimonial Carousel Styles */
+.testimonial-carousel-container {
+  position: relative;
+  padding: 40px 0;
+}
+
+.testimonial-carousel-container .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.testimonial-carousel-container .swiper-slide {
+  width: 400px;
+  height: auto;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.testimonial-carousel-container .swiper-slide-active {
+  opacity: 1;
+}
+
+.testimonial-carousel-container .swiper-pagination {
+  bottom: 20px;
+}
+
+.testimonial-carousel-container .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: hsl(var(--primary) / 0.5);
+  opacity: 0.5;
+}
+
+.testimonial-carousel-container .swiper-pagination-bullet-active {
+  background: hsl(var(--primary));
+  opacity: 1;
+}
+
+.testimonial-carousel-container .swiper-button-next,
+.testimonial-carousel-container .swiper-button-prev {
+  color: hsl(var(--primary));
+  background: hsl(var(--background) / 0.8);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.testimonial-carousel-container .swiper-button-next:hover,
+.testimonial-carousel-container .swiper-button-prev:hover {
+  background: hsl(var(--primary) / 0.1);
+  transform: scale(1.1);
+}
+
+.testimonial-carousel-container .swiper-button-next:after,
+.testimonial-carousel-container .swiper-button-prev:after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dark .testimonial-carousel-container .swiper-button-next,
+.dark .testimonial-carousel-container .swiper-button-prev {
+  background: hsl(var(--background) / 0.5);
+}
+
+
